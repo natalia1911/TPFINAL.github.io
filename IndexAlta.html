@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>ALTA ORADORES</title>
+        <link rel="stylesheet" href="stylealta.css">
+    </head>
+    <body>
+        <main>
+            <!-- ACA VA EL NAVBAR  -->
+            <header>
+              <div class="Contenedor">
+                  <div class="logo">
+                    <a href="Index.html">
+                      <img src="Imagenes/imágenes/Sin título-2.png">
+                    </a>  
+                  </div>
+          
+              <nav class="menu-opciones">
+                  <ul>
+                      <li>
+                          <a href="IndexAlta.html">Alta</a>
+                      </li>
+      
+                      <li>
+                          <a href="#">Listado</a>
+                      </li>
+                  </ul>
+              </nav>  
+      
+                  <div class="controles-usuario">
+                      <ion-icon id="btn-menu" name="menu-outline"></ion-icon>
+                  </div>
+      
+                
+              </div>
+      
+          
+          </header>
+      
+            <div class="container">
+                    <h1>Alta</h1>
+                    <!--  JSP -->
+                    <form method="post">
+                        <div class="Form">
+                          <label for="Nombre" class="form-label">Nombre</label>
+                          <input name="nombre"  type="text" class="form-control" id="txtnombre" placeholder="Nombre" maxlength="50">
+                        </div>
+
+                        <div class="Form">
+                          <label for="Apellido" class="form-label">Apellido</label>
+                          <input name="apellido" type="text" class="form-control" id="txtapellido" placeholder="Apellido">
+                        </div>
+
+                        <div class="Form">
+                          <label for="Mail" class="form-label">Mail</label>  
+                          <input name="mail" type="mail" class="form-control" id="txtmail" placeholder="Mail" >
+                        </div>
+
+                        <div class="Form">
+                          <label for="Tema" class="form-label">Tema</label>  
+                          <input name="tema" type="text" class="form-control" id="txttema"  placeholder="Tema">
+                        </div>
+
+                        <div class="button">
+                           <input type="button" value="Dar de alta Orador">
+                        </div>
+                    </form>
+                </section>
+            </div>
+          </main>
+
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+          <script src="javas.js"></script>
+    </body>
+
+</html>
